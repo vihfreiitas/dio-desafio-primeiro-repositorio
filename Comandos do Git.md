@@ -60,20 +60,8 @@ Para verificar qual e-mail e usuário está configurado no terminal:
 
 É sempre bom manter os mesmos e-mail e usuário que estão no seu GitHub. Mas caso não esteja configurado essa é a forma para configurar.
 
-`<u>git config --global user.name "Seu usuário"</u>`
-`<u>git config --global user.email seuemail@exemplo.com`</u>~~
-
-
-
-Para clonar seu repositório no seu terminal:
-
-`git clone https://github.com/vihfreiitas/exemplo` 
-
-​                        Onde copiar a URL necessária para a função git clone: 
-
-![](C:\Users\vicfr\OneDrive\Imagens\git clone exemplo.png)
-
-
+`git config --global user.name "Seu usuário"`
+`git config --global user.email seuemail@exemplo.com`
 
 Quando houver alterações no seu diretório de trabalho, para que você consiga salva-lo: 
 
