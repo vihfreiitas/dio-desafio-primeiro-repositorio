@@ -79,13 +79,11 @@ Quando houver alterações no seu diretório de trabalho, para que você consiga
 
 Primeiro salvar uma copia:
 
-`git add`
+`git add nome do arquivo` 
 
-Depois confirmar no histórico do seu projeto:
+`git add .` (Para conseguir adicionar todos os arquivos )
 
-`git commit`
-
-Para que consiga deixar uma mensagem para que te direcione o que foi mudado:
+Depois para confirmar no histórico do seu projeto e deixar uma mensagem para te direcionar o que foi mudado:
 
 `git commit -m "Mensagem"`
 
@@ -96,4 +94,8 @@ Para verificação do Status do seu projeto:
 Para saber o que foi alterado no seu projeto:
 
 `git diff`
+
+Para subir os arquivos para o servidor remoto:
+
+`git push origin main`
 
